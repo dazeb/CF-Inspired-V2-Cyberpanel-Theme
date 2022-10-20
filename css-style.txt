@@ -1,0 +1,209 @@
+/*
+    Name: CF INSPIRED WHITE v2
+    Version: 1.1
+    Author: DazEB based on CypherPotato
+    Tested on CyberPanel 2.3 build 2
+    Served with APACHE-2.0 license
+    - CyberPanel repo: https://github.com/usmannasir/cyberpanel/
+    /usr/local/CyberCP/public/static/emailMarketing  <-admin icons here
+    /usr/local/CyberCP/public/static/images/icons    <- main icons here
+	/usr/local/CyberCP/public/static/baseTemplate/assets/image-resources   <- admin logo goes here
+*/
+
+.panel {
+    border-radius: 10px;
+}
+
+textarea {
+    font-family: monospace;
+}
+
+div.tile-content-wrapper {
+    border-radius: 10px;
+}
+
+a.tile-box.tile-box-shortcut.btn-primary {
+    border-radius: 10px;
+    background-color: #6495ED;
+}
+
+#page-header {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    background-color: white !important;
+}
+
+#page-sidebar::-webkit-scrollbar {
+    display: none;
+}
+
+#page-sidebar {
+    padding-top: 72px;
+    position: fixed;
+    border-right: 1px solid #dfe8f1;
+    overflow-y: scroll;
+    height: 100% !important;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+#page-content {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#page-content-wrapper {
+    width: calc(100% - 280px);
+    margin-left: 280px;
+}
+
+@media (min-width: 768px) {
+    #page-content {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    #page-content {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #page-content {
+        width: 1170px;
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700 !important;
+}
+
+#page-content {
+    padding-top: 120px;
+}
+
+#sidebar-menu {
+    background: transparent;
+    padding: 5px 0px;
+}
+
+#page-header {
+    background: transparent;
+    border-bottom: 1px solid #dfe8f1;
+}
+
+.logo-bg {
+    background-color: transparent;
+}
+
+#sidebar-menu>li, #sidebar-menu>li:not([class])>a {
+    margin-block: 8px;
+}
+
+#sidebar-menu>li>a, .sidebar-submenu li>a {
+    cursor: pointer;
+    padding-inline: 12px;
+    line-height: 40px !important;
+    height: 40px !important;
+}
+
+.sidebar-submenu li>a {
+    margin-left: 40px;
+}
+
+#page-sidebar ul li.sfHover>a.sf-with-ul {
+    border-color: transparent;
+}
+
+#sidebar-menu li .sidebar-submenu {
+    border-color: transparent;
+}
+
+.header-btn {
+    margin-left: 20px !important;
+}
+
+.header-btn>i {
+    color: #6e6e6e !important;
+    font-size: 18px !important;
+}
+
+
+
+
+.btn-primary {
+    border: none;
+}
+
+#page-sidebar ul>li>a:hover {
+    border-color: transparent;
+    background-color: aliceblue !important;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    text-decoration: underline;
+    transition: none;
+}
+
+#sidebar-menu li .sidebar-submenu ul li {
+    border-color: transparent;
+}
+
+#page-sidebar li ul li a:before {
+    display: none;
+}
+
+a.sfActive {
+    border: 1px solid;
+    border-color: rgba(0, 100, 255, .25) !important;
+    border-right-width: 0px !important;
+    background-color: rgba(0, 100, 255, .10) !important;
+    border-bottom-left-radius: 50px !important;
+    border-top-left-radius: 50px !important;
+    text-decoration: underline !important;
+}
+
+a.sfActive span {
+    font-weight: 400 !important;
+    text-decoration: none;
+}
+
+#sidebar-menu>li>a>span, .sidebar-submenu ul li a>span {
+    color: rgb(48,48,48);
+    font-size: 16px;
+    margin-left: 10px;
+    font-weight: 300;
+}
+
+#page-sidebar li a:hover .glyph-icon {
+    animation-name: none;
+}
+
+#page-sidebar li a .glyph-icon {
+    line-height: 40px;
+}
+
+#sidebar-menu>.header, #sidebar-menu>.divider {
+    display: none;
+}
+
+.sf-with-ul>.bs-label {
+    display: none;
+}
+
+#sidebar-menu-item-server-ip-address {
+    padding-bottom: 48px !important;
+    border-bottom: 1px solid #dfe8f1 !important;
+}
+#sidebar-menu-item-server-ip-address:hover {
+    border-bottom-left-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    background-color: transparent !important;
+}
+#sidebar-menu-item-server-ip-address>span {
+    color: rgb(0, 43, 103) !important;
+    font-weight: 400 !important;
+}
