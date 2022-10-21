@@ -9,3 +9,12 @@ This theme is a modification of CypherPotato's work. I simply modified a few thi
 ![81a50f537184779c1ce43a9414c3f7fb](https://user-images.githubusercontent.com/67932890/197212643-ff98737a-5b1f-4c1b-9b8f-fbf9b8532f4e.png)
 
 
+**Install**
+
+Download this repo as a zip 
+
+go to `Design` and add the css code from the text file.
+
+upload the icons to the correct folders
+
+Done
