@@ -7,7 +7,7 @@
     - CyberPanel repo: https://github.com/usmannasir/cyberpanel/
     /usr/local/CyberCP/public/static/emailMarketing  <-admin icons here
     /usr/local/CyberCP/public/static/images/icons    <- main icons here
-	/usr/local/CyberCP/public/static/baseTemplate/assets/image-resources   <- admin logo goes here
+    /usr/local/CyberCP/public/static/baseTemplate/assets/image-resources   <- admin logo goes here
 */
 
 .panel {
