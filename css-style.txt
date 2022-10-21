@@ -134,6 +134,9 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
+#header-logo {
+    filter: grayscale(1) contrast(5) invert(1);
+}
 
 .btn-primary {
     border: none;
@@ -167,13 +170,13 @@ a.sfActive {
 }
 
 a.sfActive span {
-    font-weight: 400 !important;
+    font-weight: 700 !important;
     text-decoration: none;
 }
 
 #sidebar-menu>li>a>span, .sidebar-submenu ul li a>span {
-    color: rgb(48,48,48);
-    font-size: 16px;
+    color: rgb(100, 149, 237);
+    font-size: 13px;
     margin-left: 10px;
     font-weight: 300;
 }
