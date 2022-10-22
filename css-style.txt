@@ -10,6 +10,10 @@
     /usr/local/CyberCP/public/static/baseTemplate/assets/image-resources   <- admin logo goes here
 */
 
+#page-sidebar ul li a .glyph-icon {
+    color: #022352 !important;
+}
+
 .panel {
     border-radius: 10px;
 }
@@ -138,7 +142,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #page-sidebar ul>li>a:hover {
     border-color: transparent;
-    background-color: aliceblue !important;
+    background-color: #ECF4FF !important;
     border-bottom-left-radius: 50px;
     border-top-left-radius: 50px;
     text-decoration: underline;
@@ -155,9 +159,9 @@ h1, h2, h3, h4, h5, h6 {
 
 a.sfActive {
     border: 1px solid;
-    border-color: rgba(0, 100, 255, .25) !important;
+    border-color: rgb(185,214,255) !important;
     border-right-width: 0px !important;
-    background-color: rgba(0, 100, 255, .10) !important;
+    background-color: rgb(236, 244, 255) !important;
     border-bottom-left-radius: 50px !important;
     border-top-left-radius: 50px !important;
     text-decoration: underline !important;
@@ -165,7 +169,7 @@ a.sfActive {
 
 a.sfActive span {
     font-weight: 600;
-    text-decoration: none !important;
+    text-decoration-style: underline !important;
 }
 
 #sidebar-menu>li>a>span, .sidebar-submenu ul li a>span {
