@@ -19,5 +19,11 @@ upload the icons to the correct folders
 
 `/usr/local/CyberCP/public/static/baseTemplate/assets/image-resources` replace `logo-admin.png` to change site logo
 
+```
+    /usr/local/CyberCP/public/static/emailMarketing/  <- email icons here
+    /usr/local/CyberCP/public/static/images/icons/    <- main icons here
+    /usr/local/CyberCP/public/static/baseTemplate/assets/image-resources/   <- admin logo goes here
+```
+
 
 Done
