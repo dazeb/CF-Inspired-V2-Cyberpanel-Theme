@@ -17,4 +17,7 @@ go to `Design` and add the css code from the text file.
 
 upload the icons to the correct folders
 
+`/usr/local/CyberCP/public/static/baseTemplate/assets/image-resources` replace `logo-admin.png` to change site logo
+
+
 Done
